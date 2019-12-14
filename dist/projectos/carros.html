@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <meta name="”description”" content="”inserir" descrição aqui” />
+    <meta name="”viewport”" width="”device-width," initial-scale="1”" />
+    <meta name="”keywords”" content="”blah," blah, blah” />
+    <meta name="”author”" content="”HI”" />
+
+    <!-- og facebook -->
+
+    <!--  <meta property="og:title" content="The Title of the page" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://example.com" />
+    <meta property="og:image" content="http://example.com/images/image.jpg" />
+    <meta property=”og:site_name” content="nome do site" /> -->
+
+    <!-- meta twitter -->
+
+    <!-- <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@nytimesbits" />
+    <meta name="twitter:creator" content="@nickbilton" /> para o criador do conteudo, neste caso eu.
+    <meta name="twitter:site" content="@empresa" /> empresa ao qual o site pertence, no caso desta ter uma pagina
+    twitter
+    <meta name="twitter:title" content="titulo da pagina" />
+    <meta name="twitter:description" content="descrição" /> -->
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!-- anime -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre&display=swap" rel="stylesheet" />
+    <!-- font-awesome -->
+    <!--     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/79282f1ae6.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="projectos-bd">
+    <!-- HEADER -->
+
+    <header id="header">
+        <!-- NAV -->
+
+        <nav
+            class="navbar navbar-expand-lg navbar-dark primary-color align-items-center justify-content-start position-fixed">
+            <a class="navbar-brand" href="../index.html"><img
+                    src="../images/6188feb4-11d4-42d7-881e-86a3316c8182_200x200.png" alt="Logo Dms" /></a>
+
+            <h6>
+                MIGUEL PEREIRA<br /><span><i>WEB DESIGN</i></span>
+            </h6>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../sobre.html">SOBRE</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../index.html#web-url">Web-Design</a>
+                            <a class="dropdown-item" href="../index.html#fotografia-url">Fotografia</a>
+                            <a class="dropdown-item" href="../index.html#logotipos-url">Logótipos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-12 col-lg-9 p-0 m-0">
+                    <div class="img-projecto" id="carro-projecto">
+                        <img src="../images/stand-1.jpg" alt="Stand Virtual primeira foto" />
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 p-0 m-0">
+                    <ul>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span>
+                            Utilizei Gulp para automatizar, compilar, e minificar css e javascript.</li>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span>
+                            Utilizei Javascript para providenciar interatibilidade.</li>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span>
+                            Construí a base de dados com Mysqli.</li>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span>
+                            Construí um backend com php para o administrador do website poder alterar as
+                            informações
+                            sobre os veículos, marcas, vendedores, utilizadores.
+                        </li>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span> Fui
+                            gravando o processo através de Git.</li>
+                        <li><span><img src="../images/iconfinder_pointer1_216696.svg" alt="projecto-icon"></span> Fiz o
+                            upload para a cloud hosting platform Heroku.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section id="projecto-ctn">
+
+        <div class="container">
+            <div class="row">
+                <div class="content-imagem">
+                    <img src="../images/stand-2.jpg" class="mt-5 mb-5 img-fluid" alt="Stand Virtual segunda foto">
+                </div>
+
+                <div class="content-imagem">
+                    <img src="../images/stand-5.jpg" class="mt-5 mb-5 img-fluid" alt="Stand Virtual terceira foto">
+                    <h6 class="img-detalhes-l">Os resultados são disponibilizados dinamicamente, consoante os critérios
+                        introduzidos nas barras de procura.</h6>
+                </div>
+                <div class="content-imagem">
+                    <img src="../images/stand-6.jpg" class="mt-5 mb-5 img-fluid" alt="Stand Virtual quarte foto">
+                    <h6 class="img-detalhes-r">Vemos o backend do website, onde o administrador poderá introduzir novas
+                        marcas, modelos, adicionar, editar e eliminar veiculos, controlar os veiculos vendidos e
+                        configurar qual o colaborador que fica responsável pela venda de cada veiculo.</h6>
+                </div>
+                <div class="content-imagem">
+                    <img src="../images/stand-3.jpg" class="mt-5 mb-5 img-fluid" alt="Stand Virtual quinta foto">
+                    <h6 class="img-detalhes-r">Vemos a página de detalhe do veiculo, com o vários aspectos do mesmo e o
+                        contacto do vendedor.</h6>
+                </div>
+
+                <div class="content-imagem">
+                    <img src="../images/stand-4.jpg" class="mt-5 mb-5 img-fluid" alt="Stand Virtual sexta foto">
+                    <h6 class="img-detalhes-rb">Consoante os atributos do veiculo, este pode estar disponível para ser
+                        financiado pelo stand, ou trocado através de uma retoma.</h6>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="footer">
+        <div class="container text-center">
+            <a href="#header" id="footer-up"><img src="../images/iconfinder_aiga_uparrow_inv_134123.svg" alt=""></a>
+            <div class="links text-center">
+                <ul class="d-flex justify-content-center align-items-center flex-wrap">
+                    <a href="https://rateyourmusic.com/~Drive_like_fugazi">
+                        <li>RYM</li>
+                    </a>
+                    <span>/</span>
+                    <a href="">
+                        <li>SHUTTERSTOCK</li>
+                    </a>
+                    <span>/</span>
+                    <a href="https://www.instagram.com/miguel_dms/">
+                        <li>INSTAGRAM</li>
+                    </a>
+                    <span>/</span>
+                    <a href="https://mutestare.bandcamp.com/releases">
+                        <li>BANDCAMP</li>
+                    </a>
+                </ul>
+            </div>
+
+            <h3 class="text-uppercase">Entre em contacto</h3>
+            <div class="telefone">+351911515501</div>
+            <div class="email">miguelglp90@gmail.com</div>
+            <div class="skype"></div>
+
+            <hr>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100037209814005"><i
+                        class="fab fa-facebook-square footer-icon"></i></a>
+                <a href="https://mutestare.bandcamp.com/releases"><i class="fab fa-bandcamp footer-icon"></i></a>
+                <a href="https://www.instagram.com/miguel_dms/"><i class="fab fa-instagram footer-icon"></i></a>
+                <a href="#"><i class="fab fa-twitter footer-icon"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/sobre.min.js"></script>
+</body>
