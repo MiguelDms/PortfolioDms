@@ -14,7 +14,8 @@ header h4.lg-heading{position:absolute;top:15%;left:8%}header h4 .text-secondary
 header h2.sm-heading{font-size:80px !important;position:absolute;top:35%;text-transform:uppercase;font-weight:bolder;text-shadow:1px 3px 0 #969696,5px 6px 6px #aba8a8;transition:text-decoration 300ms ease-in-out}
 header .icons{text-align:center;width:40%;position:absolute;bottom:15px;left:30%}
 header .icons i,footer .icons i{padding-right:3px}header button#second-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;position:absolute;bottom:16%;left:50%;transform:translateX(-50%);width:130px}
-header button#second-btn:hover{color:#fff !important;background:#ff5d2c !important}
+#projecto-ctn #foto-btn,#projecto-ctn #carro-btn,#projecto-ctn #bolos-btn,#projecto-ctn #restaurante-btn,#projecto-ctn #resto-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;width:200px;box-shadow:5px 5px 5px #000}
+header button#second-btn:hover,#projecto-ctn #foto-btn:hover,#projecto-ctn #carro-btn:hover,#projecto-ctn #bolos-btn:hover,#projecto-ctn #restaurante-btn:hover,#projecto-ctn #resto-btn:hover{color:#fff !important;background:#ff5d2c !important}
 header .icons a{color:rgba(255,255,255,0.548) !important}header .icons a:hover{color:#23a6d5 !important}
 section#web-design{position:relative;background:#23a6d5;padding:80px 0 120px 0}section#web-design .container{max-width:100%}
 section#web-design #mockup{width:80%;margin-left:10%;border-radius:10px}section#web-design h1{font-weight:bolder;color:#fff;font-size:2.5rem !important;margin-bottom:1rem !important;text-shadow:3px 5px 2px #474747}
