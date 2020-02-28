@@ -1,107 +1,134 @@
-body{font-family:"Proza Libre",sans-serif;overflow-x:hidden}#principal header{position:relative;margin:0;width:100%;height:100vh;color:#fff;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;animation:gradientBG 12s ease infinite}
-#sobre header{position:relative;margin:0;min-height:120vh;width:100%;color:#fff;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;animation:gradientBG 12s ease infinite}
+body{font-family:"Proza Libre",sans-serif;overflow-x:hidden}#principal header{position:relative;margin:0;width:100%;height:100vh;color:#fff;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;-webkit-animation:gradientBG 12s ease infinite;animation:gradientBG 12s ease infinite}
+#sobre header{position:relative;margin:0;min-height:120vh;width:100%;color:#fff;background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;-webkit-animation:gradientBG 12s ease infinite;animation:gradientBG 12s ease infinite}
 #projectos-bd header{position:relative;margin:0}#projectos-bd header h6{color:#fff}
-@keyframes gradientBG{0%{background-position:0 50%}50%{background-position:100% 50%}
-100%{background-position:0 50%}}#principal header .navbar{visibility:hidden;opacity:0;width:100%;background:#000;z-index:100;transition:300ms all ease}
+@-webkit-keyframes gradientBG{0%{background-position:0 50%}
+50%{background-position:100% 50%}100%{background-position:0 50%}}@keyframes gradientBG{0%{background-position:0 50%}
+50%{background-position:100% 50%}100%{background-position:0 50%}}#principal header .navbar{visibility:hidden;opacity:0;width:100%;background:#000;z-index:100;-webkit-transition:300ms all ease;transition:300ms all ease}
 #sobre header .navbar,#projectos-bd header .navbar{background:#000;width:100%;z-index:100}
 header a.nav-link{color:rgba(255,255,255,0.815) !important}header a.nav-link:hover{color:#fa823d !important}
 header a.active-page{color:#fa823d !important}.disp{visibility:visible !important;opacity:1 !important}
-header .navbar img{margin-left:20%;width:60px;height:60px}header .navbar h6{width:20%;font-size:.8rem !important;margin-bottom:-3px !important}
-header .navbar h6 span{font-size:.6rem}header .navbar .navbar-nav{width:100%;justify-content:flex-end !important;margin-right:1rem}
+header .navbar img{margin-left:20%;width:60px;height:60px}header .navbar h6{width:50%;font-size:.8rem !important;margin-bottom:-3px !important}
+header .navbar h6 span{font-size:.6rem}header .navbar .navbar-nav{width:100%;-webkit-box-pack:end !important;-ms-flex-pack:end !important;justify-content:flex-end !important;margin-right:1rem}
 header .navbar li{padding:0 10px}header .navbar-toggler{margin-left:auto}header #navbarNav .dropdown-menu{background:#000}
 header #navbarNav .dropdown-item{color:#fff}header #navbarNav .dropdown-item:hover{color:#ff5d2c;background:none !important}
 header h4.lg-heading{position:absolute;top:15%;left:8%}header h4 .text-secondary{color:#ee7752 !important}
-header h2.sm-heading{font-size:80px !important;position:absolute;top:35%;text-transform:uppercase;font-weight:bolder;text-shadow:1px 3px 0 #969696,5px 6px 6px #aba8a8;transition:text-decoration 300ms ease-in-out}
+header h2.sm-heading{font-size:80px !important;position:absolute;top:35%;text-transform:uppercase;font-weight:bolder;text-shadow:1px 3px 0 #969696,5px 6px 6px #aba8a8;-webkit-transition:-webkit-text-decoration 300ms ease-in-out;transition:-webkit-text-decoration 300ms ease-in-out;transition:text-decoration 300ms ease-in-out;transition:text-decoration 300ms ease-in-out,-webkit-text-decoration 300ms ease-in-out}
 header .icons{text-align:center;width:40%;position:absolute;bottom:15px;left:30%}
-header .icons i,footer .icons i{padding-right:3px}header button#second-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;position:absolute;bottom:16%;left:50%;transform:translateX(-50%);width:130px}
-#projecto-ctn #foto-btn,#projecto-ctn #carro-btn,#projecto-ctn #bolos-btn,#projecto-ctn #restaurante-btn,#projecto-ctn #resto-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;width:200px;box-shadow:5px 5px 5px #000}
+header .icons i,footer .icons i{padding-right:3px}header button#second-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;position:absolute;bottom:16%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:130px}
+#projecto-ctn #foto-btn,#projecto-ctn #carro-btn,#projecto-ctn #bolos-btn,#projecto-ctn #restaurante-btn,#projecto-ctn #resto-btn{padding:8px 14px !important;font-size:.9rem !important;color:rgba(255,255,255,0.787) !important;background:#fa823d !important;width:200px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000}
 header button#second-btn:hover,#projecto-ctn #foto-btn:hover,#projecto-ctn #carro-btn:hover,#projecto-ctn #bolos-btn:hover,#projecto-ctn #restaurante-btn:hover,#projecto-ctn #resto-btn:hover{color:#fff !important;background:#ff5d2c !important}
 header .icons a{color:rgba(255,255,255,0.548) !important}header .icons a:hover{color:#23a6d5 !important}
 section#web-design{position:relative;background:#23a6d5;padding:80px 0 120px 0}section#web-design .container{max-width:100%}
 section#web-design #mockup{width:80%;margin-left:10%;border-radius:10px}section#web-design h1{font-weight:bolder;color:#fff;font-size:2.5rem !important;margin-bottom:1rem !important;text-shadow:3px 5px 2px #474747}
-section#web-design ul{padding-left:15px !important}section#web-design li{display:inline-block;font-weight:bolder;cursor:pointer;font-size:1.3rem !important;margin-bottom:.5rem;list-style-type:none;transition:300ms ease}
+section#web-design ul{padding-left:15px !important}section#web-design li{display:inline-block;font-weight:bolder;cursor:pointer;font-size:1.3rem !important;margin-bottom:.5rem;list-style-type:none;-webkit-transition:300ms ease;transition:300ms ease}
 section#web-design li span{padding-right:.5rem}section#web-design li img{width:1rem;height:1rem}
-section#web-design li:hover img{animation:thumbsShake 300ms ease 3}section#web-design li:hover{color:#ff5d2c}
-@keyframes thumbsShake{0%{transform:rotate(0)}25%{transform:rotate(-20deg)}
-50%{transform:rotate(-45deg)}75%{transform:rotate(-20deg)}100%{transform:rotate(0)}
+section#web-design li:hover img{-webkit-animation:thumbsShake 300ms ease 3;animation:thumbsShake 300ms ease 3}
+section#web-design li:hover{color:#ff5d2c}@-webkit-keyframes thumbsShake{0%{-webkit-transform:rotate(0);transform:rotate(0)}
+25%{-webkit-transform:rotate(-20deg);transform:rotate(-20deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+75%{-webkit-transform:rotate(-20deg);transform:rotate(-20deg)}100%{-webkit-transform:rotate(0);transform:rotate(0)}
+}@keyframes thumbsShake{0%{-webkit-transform:rotate(0);transform:rotate(0)}
+25%{-webkit-transform:rotate(-20deg);transform:rotate(-20deg)}50%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+75%{-webkit-transform:rotate(-20deg);transform:rotate(-20deg)}100%{-webkit-transform:rotate(0);transform:rotate(0)}
 }section#web-design .card{padding:5px !important;border:none !important;background:transparent !important}
 section#web-design .card h3{color:#fff;font-size:.9rem !important;margin-left:10px}
-section#web-design .card h3 img{width:15px;height:15px;transform:rotate(-135deg)}
-section#web-design::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:100px;background:linear-gradient(-180deg,#080808,#1991bd)}
-section#web-design a{color:#000;font-size:1.5rem;animation:arrowUp 1.5s ease infinite}
-section#web-design a i{color:#000;font-size:1.5rem}section#projectos{position:relative;padding:0 0 120px 0;background:linear-gradient(-180deg,#1991bd,#095069)}
+section#web-design .card h3 img{width:15px;height:15px;-webkit-transform:rotate(-135deg);transform:rotate(-135deg)}
+section#web-design::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:100px;background:-webkit-gradient(linear,left top,left bottom,from(#080808),to(#1991bd));background:linear-gradient(-180deg,#080808,#1991bd)}
+section#web-design a{color:#000;font-size:1.5rem;-webkit-animation:arrowUp 1.5s ease infinite;animation:arrowUp 1.5s ease infinite}
+section#web-design a i{color:#000;font-size:1.5rem}section#projectos{position:relative;padding:0 0 120px 0;background:-webkit-gradient(linear,left top,left bottom,from(#1991bd),to(#095069));background:linear-gradient(-180deg,#1991bd,#095069)}
 section#projectos .container{max-width:100% !important}section#projectos h1{font-weight:bolder;color:#fff;font-size:2.5rem !important;margin-bottom:1rem !important;text-shadow:3px 5px 2px #474747}
-section#projectos .projecto-link{position:relative}section#projectos .projecto-link::before{content:"Ver projecto";visibility:hidden;opacity:0;border-radius:5px;color:#fff;box-shadow:5px 5px 5px #000;padding:8px 12px;background:#ff5d2c;position:absolute;top:100%;width:auto;left:50%;transform:translateX(-50%);transition:all 300ms ease-in-out;z-index:1000}
+section#projectos .projecto-link{position:relative}section#projectos .projecto-link::before{content:"Ver projecto";visibility:hidden;opacity:0;border-radius:5px;color:#fff;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;padding:8px 12px;background:#ff5d2c;position:absolute;top:100%;width:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);-webkit-transition:all 300ms ease-in-out;transition:all 300ms ease-in-out;z-index:1000}
 section#projectos .projecto-link:hover::before{visibility:visible;opacity:1;top:45%}
-section#projectos img{width:100%;padding:.5rem;min-height:300px;max-height:300px;border-radius:5px;transition:500ms ease-in-out}
-section#projectos .projecto-link:hover img{transform:scale(1.03);filter:grayscale(100%)}
-section#projectos h4{color:#fff}.navbar2{visibility:hidden;opacity:0;top:0;width:100%;z-index:100;background:#fff;transition:300ms ease}
-.navbar2 ul{padding:.8rem}.navbar2 ul li{margin-left:1rem;align-self:center}.navbar2 ul li a.nav-link{font-size:1.5rem;color:#000 !important}
-.c-disp{color:#ff5d2c !important}.navbar2 ul li a:hover{font-size:1.5rem;color:#ff5d2c !important}
-.navbar2 img{width:50px;height:50px;margin-left:10px}section#fotografia{position:relative;background:#1991bd;background-size:400% 400%;animation:gradientBD 12s ease infinite;padding:100px 40px;transition:all 500ms ease-in-out}
+section#projectos img{width:100%;padding:.5rem;border:2px dashed white !important;min-height:300px;max-height:300px;border-radius:5px;-webkit-transition:500ms ease-in-out;transition:500ms ease-in-out}
+section#projectos .projecto-link:hover img{padding:.1rem;-webkit-transform:scale(1.03);transform:scale(1.03);border:1px dashed black !important;-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+section#projectos h5{color:#fff}.navbar2{visibility:hidden;opacity:0;top:0;width:100%;z-index:100;background:#fff;-webkit-transition:300ms ease;transition:300ms ease}
+.navbar2 ul{padding:.8rem}.navbar2 ul li{margin-left:1rem;-ms-flex-item-align:center;-ms-grid-row-align:center;align-self:center}
+.navbar2 ul li a.nav-link{font-size:1.5rem;color:#000 !important}.c-disp{color:#ff5d2c !important}
+.navbar2 ul li a:hover{font-size:1.5rem;color:#ff5d2c !important}.navbar2 img{width:50px;height:50px;margin-left:10px}
+section#fotografia{position:relative;background:#1991bd;background-size:400% 400%;-webkit-animation:gradientBD 12s ease infinite;animation:gradientBD 12s ease infinite;padding:100px 40px;-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
 section#fotografia .container{min-height:300px}section#fotografia #photo-camera{display:block;margin-bottom:10px;margin-top:40px;height:130px}
-.shutterClick{animation:cameraFlash .3s .3s alternate-reverse 1}@keyframes cameraFlash{from{box-shadow:inset 1px 1px 1px 0 rgba(255,255,255,0.671)}
-to{box-shadow:inset 1px 1px 1px 100px rgba(255,255,255,0.739)}}section#fotografia .cameraWrap{padding:0 20px;position:relative;margin-left:auto;margin-right:auto;width:fit-content;opacity:1;transition:500ms ease-out}
+.shutterClick{animation:cameraFlash .3s .3s alternate-reverse 1}@-webkit-keyframes cameraFlash{from{-webkit-box-shadow:inset 1px 1px 1px 0 rgba(255,255,255,0.671);box-shadow:inset 1px 1px 1px 0 rgba(255,255,255,0.671)}
+to{-webkit-box-shadow:inset 1px 1px 1px 100px rgba(255,255,255,0.739);box-shadow:inset 1px 1px 1px 100px rgba(255,255,255,0.739)}
+}@keyframes cameraFlash{from{-webkit-box-shadow:inset 1px 1px 1px 0 rgba(255,255,255,0.671);box-shadow:inset 1px 1px 1px 0 rgba(255,255,255,0.671)}
+to{-webkit-box-shadow:inset 1px 1px 1px 100px rgba(255,255,255,0.739);box-shadow:inset 1px 1px 1px 100px rgba(255,255,255,0.739)}
+}section#fotografia .cameraWrap{padding:0 20px;position:relative;margin-left:auto;margin-right:auto;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;opacity:1;-webkit-transition:500ms ease-out;transition:500ms ease-out}
 section#fotografia .cameraWrap::before{position:absolute;top:0;left:0;right:0;bottom:0}
 .cameraWrap.shutterClick:before{content:"";animation:cameraFlash .3s .3s alternate-reverse 1}
-.volta{animation:volta 500ms linear 1}@keyframes volta{0%{transform:rotate(0)}
-25%{transform:rotate(90deg)}50%{transform:rotate(180deg)}75%{transform:rotate(270deg)}
-100%{transform:translateY(0)}}section#fotografia h5{margin-top:2rem;color:#fff;text-shadow:2px 2px 0 #363636,5px 4px 0 rgba(0,0,0,0.15)}
-section#fotografia button{display:block;border-radius:5px;opacity:1;background:#ff5d2c13 !important;color:rgba(255,255,255,0.719);margin:30px auto 0 auto;padding:10px;font-weight:bold;max-height:100%;box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75);transition:all 500ms ease-out}
-section#fotografia button:hover{background:#ff5d2c !important;color:#fff;box-shadow:2px 2px 5px 0 rgba(50,50,50,0.75)}
-@keyframes gradientBD{0%{background-position:0 -50%}50%{background-position:100% -50%}
-100%{background-position:0 -50%}}section#fotografia .row{visibility:hidden;max-height:0;opacity:0;margin-left:auto;width:100%;justify-content:center;transition:all 500ms ease-in-out}
+.volta{-webkit-animation:volta 500ms linear 1;animation:volta 500ms linear 1}@-webkit-keyframes volta{0%{-webkit-transform:rotate(0);transform:rotate(0)}
+25%{-webkit-transform:rotate(90deg);transform:rotate(90deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+75%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}@keyframes volta{0%{-webkit-transform:rotate(0);transform:rotate(0)}
+25%{-webkit-transform:rotate(90deg);transform:rotate(90deg)}50%{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+75%{-webkit-transform:rotate(270deg);transform:rotate(270deg)}100%{-webkit-transform:translateY(0);transform:translateY(0)}
+}section#fotografia h5{margin-top:2rem;color:#fff;text-shadow:2px 2px 0 #363636,5px 4px 0 rgba(0,0,0,0.15)}
+section#fotografia button{display:block;border-radius:5px;opacity:1;background:#ff5d2c13 !important;color:rgba(255,255,255,0.719);margin:30px auto 0 auto;padding:10px;font-weight:bold;max-height:100%;-webkit-box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75);box-shadow:7px 7px 5px 0 rgba(50,50,50,0.75);-webkit-transition:all 500ms ease-out;transition:all 500ms ease-out}
+section#fotografia button:hover{background:#ff5d2c !important;color:#fff;-webkit-box-shadow:2px 2px 5px 0 rgba(50,50,50,0.75);box-shadow:2px 2px 5px 0 rgba(50,50,50,0.75)}
+@-webkit-keyframes gradientBD{0%{background-position:0 -50%}
+50%{background-position:100% -50%}100%{background-position:0 -50%}}@keyframes gradientBD{0%{background-position:0 -50%}
+50%{background-position:100% -50%}100%{background-position:0 -50%}}section#fotografia .row{visibility:hidden;max-height:0;opacity:0;margin-left:auto;width:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-transition:all 500ms ease-in-out;transition:all 500ms ease-in-out}
 section#fotografia .row .col1,section#fotografia .row .col2,section#fotografia .row .col3{visibility:hidden;max-height:0;opacity:0}
 .row-disp{visibility:visible !important;max-height:100% !important;opacity:1 !important}
 .esconder{visibility:hidden !important;max-height:0 !important;opacity:0 !important}
-section#fotografia .row img{padding:5px;display:block;width:100%;transition:700ms ease-in-out}
-section#fotografia .row img:hover{transform:scale(1.03)}section#fotografia::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:300px;background:linear-gradient(-180deg,transparent,#fff,#fff)}
-section#logotipos{padding:0 0 60px 0}section#logotipos h1{font-size:3rem !important;font-weight:bolder;text-shadow:2px 2px 0 #fff,5px 4px 0 rgba(0,0,0,0.15)}
-footer#footer{padding:80px 0 40px 0}footer img{cursor:pointer;width:40px;height:40px;animation:arrowUp 2s ease infinite;margin-bottom:1rem}
-@keyframes arrowUp{0%{transform:translateY(-5px)}50%{transform:translateY(5px)}
-100%{transform:translateY(-5px)}}footer#footer ul{padding:0 !important;margin:1rem}
-footer#footer ul li{list-style-type:none;padding:1rem}footer#footer ul a:hover{text-decoration:none}
-footer#footer ul li:hover{color:#ff5d2c !important}footer .icons a:hover{color:#fa823d}
-section#sobre .row{width:90%;position:absolute;top:150px;left:50px}section#sobre h1{text-shadow:3px 3px 2px #474747;color:#ee7752}
-section#sobre p{width:90%}section#sobre img{width:90%;box-shadow:10px 10px 5px 0 rgba(0,0,0,0.75);-webkit-box-shadow:10px 10px 5px 0 rgba(0,0,0,0.75);-moz-box-shadow:10px 10px 5px 0 rgba(0,0,0,0.75)}
+section#fotografia .row img{padding:5px;display:block;width:100%;-webkit-transition:700ms ease-in-out;transition:700ms ease-in-out}
+section#fotografia .row img:hover{-webkit-transform:scale(1.03);transform:scale(1.03)}
+section#fotografia::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:200px;background:-webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(rgba(255,255,255,0.205)),to(#fff));background:linear-gradient(-180deg,transparent,rgba(255,255,255,0.205),#fff)}
+section#escrita{position:relative;font-family:courier !important;padding:100px 0 60px 0;background:url(../images/board-bright-design-fabric-235994.jpg) center/ cover fixed no-repeat}
+section#escrita::after{content:"";position:absolute;left:0;top:0;width:100%;height:100px;background:-webkit-gradient(linear,left top,left bottom,from(#fff),color-stop(rgba(255,255,255,0.568)),to(transparent));background:linear-gradient(-180deg,#fff,rgba(255,255,255,0.568),transparent)}
+section#escrita .row{border-radius:8px;background-color:#fcfddf}section#escrita h1{font-size:3rem !important;font-weight:bolder;text-shadow:2px 2px 0 #fff,3px 2px 0 rgba(0,0,0,0.15)}
+section#escrita .extra-content img{max-height:400px;margin:80px 0 30px 10%}section#escrita .extra-content .specs{margin-left:50px}
+section#escrita .synopsis{font-size:.8rem !important}footer#footer{padding:80px 0 40px 0}
+footer img{cursor:pointer;width:40px;height:40px;-webkit-animation:arrowUp 2s ease infinite;animation:arrowUp 2s ease infinite;margin-bottom:1rem}
+@-webkit-keyframes arrowUp{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+50%{-webkit-transform:translateY(5px);transform:translateY(5px)}100%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+}@keyframes arrowUp{0%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+50%{-webkit-transform:translateY(5px);transform:translateY(5px)}100%{-webkit-transform:translateY(-5px);transform:translateY(-5px)}
+}footer#footer ul{padding:0 !important;margin:1rem}footer#footer ul li{list-style-type:none;padding:1rem}
+footer#footer ul a:hover{text-decoration:none}footer#footer ul li:hover{color:#ff5d2c !important}
+footer .icons a:hover{color:#fa823d}section#sobre .row{width:90%;position:absolute;top:150px;left:50px}
+section#sobre h1{text-shadow:3px 3px 2px #474747;color:#ee7752}section#sobre p{width:90%}
+section#sobre img{opacity:.6;width:1000px;height:700px;margin-left:-180px;margin-top:-100px}
 section#conhecimentos{position:relative;color:#fff;padding:6rem 0;background:url(../images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg) center/ cover fixed no-repeat;background-blend-mode:lighten}
 section#conhecimentos #dot h1{font-size:4rem !important;position:absolute;top:50px;left:48%}
 section#conhecimentos .container{max-width:90%}section#conhecimentos .sobre-col{width:90%;padding:50px 0;background:#a79e9911;border-radius:20px;-webkit-box-shadow:5px 5px 5px 0 #000,inset 4px 4px 15px 0 #000,9px 11px 11px -1px rgba(125,123,123,0.52);box-shadow:5px 5px 5px 0 #000,inset 4px 4px 15px 0 #000,9px 11px 11px -1px rgba(125,123,123,0.52)}
-section#conhecimentos img{display:block;width:50%;box-shadow:7px 7px 5px 0 rgba(0,0,0,0.75);border-radius:20px;margin:0 auto 40px auto}
-section#conhecimentos h3{cursor:pointer;border:3px dashed #fff;width:60%;margin:auto;padding:.5rem .8rem;transition:100ms ease-in}
+section#conhecimentos img{display:block;width:50%;-webkit-box-shadow:7px 7px 5px 0 rgba(0,0,0,0.75);box-shadow:7px 7px 5px 0 rgba(0,0,0,0.75);border-radius:20px;margin:0 auto 40px auto}
+section#conhecimentos h3{cursor:pointer;border:3px dashed #fff;width:60%;margin:auto;padding:.5rem .8rem;-webkit-transition:100ms ease-in;transition:100ms ease-in}
 section#conhecimentos h3:hover{border:3px dotted #fa823d;color:#fa823d}section#conhecimentos ul{padding:0 !important;margin-top:2rem}
-section#conhecimentos ul li{font-weight:bold;font-size:.8rem;background:rgba(255,255,255,0.562);list-style:none;color:#201908;border:1px solid #161414;border-left:6px solid #d47f0f;width:50%;margin:auto;padding:.5rem 1rem;margin-top:5px;box-shadow:5px 5px 5px #000}
-#projectos-bd header .container{max-width:100%;padding:0}#projectos-bd .img-projecto img{padding-top:86px;width:100%;min-height:100vh;background-attachment:fixed}
-#projectos-bd .img-projecto{position:relative}#projectos-bd #restaurante-projecto::after{content:"Um website para um restaurante interessado em promover o seu negócio, aliciando clientes através de web-content.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000;transition:1s ease-in-out}
-#projectos-bd #carro-projecto::after{content:"Um website para um stand virtual, onde o administrador do site poderá controlar todos os seus aspectos, fazendo o upload de conteúdo, mudando informações, etc...";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000;transition:1s ease-in-out}
-#projectos-bd #foto-projecto::after{content:"Um website para um portfolio fotográfico, com um toque especial de cor.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000;transition:1s ease-in-out}
-#projectos-bd #bolos-projecto::after{content:"Um website frontend para uma confeitaria de bolos interessada em promover o seu negócio, aliciando clientes através de web-content.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000;transition:1s ease-in-out}
+section#conhecimentos ul li{font-weight:bold;font-size:.8rem;background:rgba(255,255,255,0.562);list-style:none;color:#201908;border:1px solid #161414;border-left:6px solid #d47f0f;width:50%;margin:auto;padding:.5rem 1rem;margin-top:5px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000}
+#projectos-bd header .container{max-width:100%;padding:0}#projectos-bd .img-projecto img{padding-top:86px;width:100%;min-height:100vh;max-height:100vh;background-attachment:fixed}
+#projectos-bd .img-projecto{position:relative}#projectos-bd #restaurante-projecto::after{content:"Um website para um restaurante interessado em promover o seu negócio, aliciando clientes através de web-content.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
+#projectos-bd #carro-projecto::after{content:"Um website para um stand virtual, onde o administrador do site poderá controlar todos os seus aspectos, fazendo o upload de conteúdo, mudando informações, etc...";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
+#projectos-bd #foto-projecto::after{content:"Um website para um portfolio fotográfico, com um toque especial de cor.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
+#projectos-bd #bolos-projecto::after{content:"Um website frontend para uma confeitaria de bolos interessada em promover o seu negócio, aliciando clientes através de web-content.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
+#projectos-bd #job-projecto::after{content:"Este website foi desenhado como ponto de encontro entre utilizadores à procura de emprego, e utilizadores à procura de contratar alguém para o seu negócio.";color:#fff;font-weight:bold;width:30%;height:auto;position:absolute;padding:20px;top:20%;left:-30%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
 #projectos-bd #restaurante-projecto:hover::after{left:10%}#projectos-bd #carro-projecto:hover::after{left:10%}
 #projectos-bd #foto-projecto:hover::after{left:10%}#projectos-bd #bolos-projecto:hover::after{left:10%}
-#projectos-bd .row ul{padding-top:110px;padding-left:5px;word-wrap:normal;background:#acc18a;height:100%}
+#projectos-bd #job-projecto:hover::after{left:10%}#projectos-bd .row ul{padding-top:110px;padding-left:5px;word-wrap:normal;background:#acc18a;height:100%}
 #projectos-bd .row ul li{color:#fff;margin:10px;padding-right:30px;list-style-type:none}
-#projectos-bd .row ul li span img{height:15px;width:15px;transform:rotate(45deg);margin-right:15px}
+#projectos-bd .row ul li span img{height:15px;width:15px;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-right:15px}
 #projectos-bd #projecto-ctn{padding-top:60px}#projectos-bd #projecto-ctn img{width:100%}
-#projectos-bd #projecto-ctn #ctn-foto-1{position:relative}#projectos-bd #projecto-ctn #ctn-foto-1::after{content:"O botão para colorir no canto inferior esquerdo torna o layout mais interativo! Podemos desligar esta função a qualquer altura.";color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000;transition:1s ease-in-out}
-.content-imagem{position:relative}.content-imagem h6.img-detalhes-r{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000}
-.content-imagem h6.img-detalhes-l{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;left:10%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000}
-.content-imagem h6.img-detalhes-rb{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;bottom:30%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;box-shadow:5px 5px 5px #000}
-@media(max-width:480px){header h4.lg-heading{font-size:1.2rem !important;padding-right:1.2rem;position:absolute;top:15%;left:8%}
+#projectos-bd #projecto-ctn #ctn-foto-1{position:relative}#projectos-bd #projecto-ctn #ctn-foto-1::after{content:"O botão para colorir no canto inferior esquerdo torna o layout mais interativo! Podemos desligar esta função a qualquer altura.";color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000;-webkit-transition:1s ease-in-out;transition:1s ease-in-out}
+.content-imagem{position:relative}.content-imagem h6.img-detalhes-r{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000}
+.content-imagem h6.img-detalhes-l{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;top:20%;left:10%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000}
+.content-imagem h6.img-detalhes-rb{color:#fff;font-weight:bold;width:40%;height:auto;position:absolute;padding:10px;bottom:30%;right:10%;background:rgba(182,181,181,0.719);border-radius:10px;-webkit-box-shadow:5px 5px 5px #000;box-shadow:5px 5px 5px #000}
+html#projecto-job #projecto-ctn{background-color:#f5f4f4;padding-bottom:3rem}@media(max-width:480px){header h4.lg-heading{font-size:1.2rem !important;padding-right:1.2rem;position:absolute;top:15%;left:8%}
 header h4 .text-secondary{color:#ee7752 !important}header h2.sm-heading{font-size:40px !important}
 #navbarNav2 li{margin-left:.5rem}#navbarNav2 img{margin-left:0}#navbarNav2 a{font-size:.9rem;padding-bottom:0}
 section#web-design h1{font-size:2rem !important}section#projectos .container{max-width:100%}
-section#fotografia{padding:100px 5px}footer#footer .links a{font-size:.8rem}footer#footer .links a li{padding:.5rem}
-footer#footer{padding-top:10px !important}section#conhecimentos h3{width:70%}section#conhecimentos img{width:80%}
-section#sobre .row{width:100%;left:25px}section#sobre h1{font-size:1.8rem}#projectos-bd .row ul li{font-size:.9rem}
-#projectos-bd .row ul li span img{width:12.5px;height:12.5px;margin-right:10px}#projectos-bd #projecto-ctn #ctn-foto-1::after{width:40%;height:auto;padding:10px;font-size:.8rem;top:10%;right:10%}
+section#fotografia{padding:100px 5px}section#escrita h1{font-size:2rem !important}
+section#escrita .extra-content img{margin:30px 0 30px 5% !important}footer#footer .links a{font-size:.8rem}
+footer#footer .links a li{padding:.5rem}footer#footer{padding-top:10px !important}
+section#conhecimentos h3{width:70%}section#conhecimentos img{width:80%}section#sobre .row{width:100%;left:25px}
+section#sobre h1{font-size:1.8rem}#projectos-bd .row ul li{font-size:.9rem}#projectos-bd .row ul li span img{width:12.5px;height:12.5px;margin-right:10px}
+#projectos-bd #projecto-ctn #ctn-foto-1::after{width:40%;height:auto;padding:10px;font-size:.8rem;top:10%;right:10%}
 #projectos-bd .img-projecto img{min-height:60vh !important;max-height:60vh !important}
 #projectos-bd #projecto-ctn .container img{margin-bottom:60px !important;margin-top:0 !important;min-height:50vh !important}
-}@media(min-width:481px) and (max-width:767px){header h2.sm-heading{font-size:55px !important}
+#footer-up img{width:30px;height:30px}}@media(min-width:481px) and (max-width:767px){header h2.sm-heading{font-size:55px !important}
 section#sobre h1{font-size:2rem}}@media(min-width:768px) and (max-width:979px){header h2.sm-heading{font-size:65px !important}
 }@media(max-width:768px){section#projectos .container{max-width:90% !important}section#logotipos .projecto-link img{display:block;margin:auto}
 #projectos-bd #restaurante-projecto::after,#projectos-bd #carro-projecto::after,#projectos-bd #foto-projecto::after,#projectos-bd #bolos-projecto::after{display:none}
 #projectos-bd #projecto-ctn h6{display:none}}@media(max-width:992px){section#web-design h1{margin-top:2rem;padding-left:20px}
-section#web-design{padding-bottom:80px !important}#projectos-bd .row ul{padding-top:20px;padding-left:20px}
-#projectos-bd #projecto-ctn .container{max-width:95%}#projectos-bd #projecto-ctn .container img{margin-bottom:20px;margin-top:0 !important;min-height:70vh}
+section#web-design{padding-bottom:80px !important}section#web-design #down-projects{padding-bottom:2rem}
+#projectos-bd .row ul{padding-top:20px;padding-left:20px}#projectos-bd #projecto-ctn .container{max-width:95%}
+#projectos-bd #projecto-ctn .container img{margin-bottom:20px;margin-top:0 !important;min-height:70vh}
+section#escrita .row{padding-bottom:1rem}section#escrita .extra-content img{margin:30px 0 30px 15%}
 }@media(min-width:993px){section#conhecimentos h3{width:50%}}
 /*# sourceMappingURL=main.css.map */
